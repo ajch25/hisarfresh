@@ -20,7 +20,12 @@
         display: inline-block;
         max-width: 555px;
         vertical-align: top;
-        color: white;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #212121;
+          color: white;
+        }
       }
     </style>
       
@@ -31,7 +36,7 @@
   </head>
   <body>
     
-    <div class="boxed" style="display: block; color:#000000;">
+    <div class="boxed" style="display: block;">
       <h1>
         <b><i>
           <div style="display:inline; color:Tomato;">HISAR</div> <div style="display:inline; color:MediumSeaGreen;">FRESH</div>
@@ -40,7 +45,7 @@
     </div>
       
 
-    <div class="boxed" style="color:#000000;">
+    <div class="boxed">
       <h4>
         ORDER NOW
        </h4>
